@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="16x16" rel="icon" href="medias/icons8-saúde-do-coração-48.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>TuaSaude</title>
+</head>
+<body>
+    
+    <!-- NAVBAR - MENU DA PÁGINA -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="name-nav" href="#">TuaSaúde</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="links" aria-current="page" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="links" href="#">Contatos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR - MENU DA PÁGINA -->
+
+      <!-- PRIMEIRA SESSÃO COM TEXTO INFORMANDO SOBRE O QUE É -->
+      <div class="container mt-3">
+        <div class="txt1">
+            <h2 class="h2">Você não é um cacto,<br>Beba Água!</h2>
+            <p class="reds-color">Quanto devo ingerir de água por dia?</p>
+        </div>
+        <div class="card-group">
+            <div class="card text-dark bg-light mt-3" style="max-width: 23rem;">
+                <div class="card-body">
+                  <h5 class="card-title">O cálculo é feito da seguinte forma:</h5>
+                  <p class="card-text">35 Ml x Seu peso (Kg) = Litros por dia</p>
+                </div>
+            </div>
+            <div class="card text-dark bg-light mt-3" style="max-width: 23rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Calculadora</h5>
+                  <form>
+                    <fieldset>
+                      <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Peso</label>
+                        <input type="text" class="form-control" id="value1" placeholder="Digite seu peso em (Kg) ex: 70">
+                      </div>
+                      <button type="button" onclick="calcWater()" class="rounded btn-default">Calcular</button>
+                    </fieldset>
+                  </form>
+                </div>
+            </div>
+            <div class="card text-dark bg-light mt-3" style="max-width: 23rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Resultado</h5>
+                  <form>
+                    <fieldset>
+                      <div class="mb-3">
+                        <input type="text" class="form-control mb-3" id="mililitro_dia" placeholder="mililitro por dia">
+                        <input type="text" class="form-control" id="litros_dia" placeholder="Litros por dia">
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+            </div>     
+        </div>
+      </div>
+      <!-- PRIMEIRA SESSÃO COM TEXTO INFORMANDO SOBRE O QUE É -->
+
+        <!-- FOOTER - FINAL DA PÁGINA -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2023 Pedro Leocir</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a id="links" href="#" class="nav-link px-2">Sobre</a></li>
+            <li class="nav-item"><a id="links" href="#" class="nav-link px-2">Contatos</a></li>
+          </ul>
+        </footer>
+      </div>
+      <!-- FOOTER - FINAL DA PÁGINA -->
+
+<script src="js/script.js"></script>
+</body>
+</html>

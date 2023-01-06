@@ -1,0 +1,35 @@
+.reds-color {
+    color: #F25252;
+}
+
+#name-nav {
+    color: #F25252;
+    font-size: 2em;
+}
+
+#links {
+    font-size: 1.2em;
+    color: rgb(0 0 0 / 55%);
+}
+
+#links:hover {
+    color: #F25252;
+}
+
+.txt1 h2 {
+    font-size: 3em;
+}
+
+.txt1 p {
+    font-size: 1.2em;
+}
+
+.btn-default {
+    background-color: #F25252;
+    color: white;
+    border-color: #F25252;
+}
+
+.btn-default:hover {
+    background-color: #eb4646;    
+}
