@@ -2,6 +2,10 @@
     color: #F25252;
 }
 
+a:link { 
+    text-decoration: none;
+}
+
 #name-nav {
     color: #F25252;
     font-size: 2em;
@@ -32,4 +36,14 @@
 
 .btn-default:hover {
     background-color: #eb4646;    
+}
+
+.active {
+    color: #F25252;
+}
+
+.imagens {
+    object-fit: cover;
+    width: auto; 
+    height: 27em;
 }
