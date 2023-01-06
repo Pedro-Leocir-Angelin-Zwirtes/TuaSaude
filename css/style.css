@@ -1,5 +1,5 @@
-.reds-color {
-    color: #F25252;
+.verde {
+    color: #81BF54;
 }
 
 a:link { 
@@ -7,7 +7,7 @@ a:link {
 }
 
 #name-nav {
-    color: #F25252;
+    color: #395922;
     font-size: 2em;
 }
 
@@ -17,7 +17,7 @@ a:link {
 }
 
 #links:hover {
-    color: #F25252;
+    color: #395922;
 }
 
 .txt1 h2 {
@@ -29,20 +29,26 @@ a:link {
 }
 
 .btn-default {
-    background-color: #F25252;
+    background-color: #81BF54;
     color: white;
-    border-color: #F25252;
+    border-color: #81BF54;
 }
 
 .btn-default:hover {
-    background-color: #eb4646;    
+    background-color: #395922;   
+    border-color: #395922; 
 }
 
 .active {
-    color: #F25252;
+    color: #81BF54;
 }
 
 .imagens {
     object-fit: cover;
     width: auto; 
+}
+
+#img-nav {
+    width: 38px;
+    height: 38px;
 }
